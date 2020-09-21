@@ -9,7 +9,8 @@ If you run the program multiple times in testing or with dfferent files, make su
 Why because when we open the database in DB Browser for sqlite you will get an error like this "Could not open database file.Reason: database is locked".If you are using Linux Os/MacOs the process forsolving this error is similar.I'm using LinuxOs.
 
 I got the database file name is ``emaildb.sqlite``
-* Run the following command::
+
+Run the following command::
 
 `$ fuse emaildb.sqlite`
 
