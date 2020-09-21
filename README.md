@@ -34,6 +34,6 @@ then,
 
 Great!!! You are unlocked your DB :)
 
-
+Run `emaildb.py`
 
     
