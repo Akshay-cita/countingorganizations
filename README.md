@@ -10,8 +10,11 @@ Why because when we open the database in DB Browser for sqlite you will get an e
 
 I got the database file name is ``emaildb.sqlite``
 * Run the following command::
+
 `$ fuse emaildb.sqlite`
+
 then you will get the result something similar to this:
+
 `/home/ak/Pictures/python_db_coursera/emaildb/emaildb.sqlite:  7167`
 
 then,
