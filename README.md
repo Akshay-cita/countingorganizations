@@ -8,8 +8,8 @@ If you run the program multiple times in testing or with dfferent files, make su
 ## Linux commands to unlock your database:
 Why because when we open the database in DB Browser for sqlite you will get an error like this "Could not open database file.Reason: database is locked".If you are using Linux Os/MacOs the process forsolving this error is similar.I'm using LinuxOs.
 Run the following command:
-I got the database file name is `emaildb.sqlite`
-``::
+I got the database file name is ``emaildb.sqlite``
+`::
 $ fuser emaildb.sqlite
 
 
