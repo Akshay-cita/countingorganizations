@@ -1,4 +1,16 @@
 # Counting Organizations
-This application will read the mailbox data (mbox.txt) and count the number of email messages per organization (i.e. domain name of the email address) using a database
+This application will read the mailbox data (mbox.txt) and count the number of email messages per organization (i.e. domain name of the email address) using a database sqlite3
 ## Note:
 If you run the program multiple times in testing or with dfferent files, make sure to empty out the data before each run. 
+## Libraries Used:
+* sqlite3
+* re
+## Linux commands to unlock your database:
+Why because when we open the database in DB Browser for sqlite you will get an error like this "Could not open database file.Reason: database is locked".If you are using Linux Os/MacOs the process forsolving this error is similar.I'm using LinuxOs.
+Run the following command:
+I got the database file name is `emaildb.sqlite`
+``::
+$ fuser emaildb.sqlite
+
+
+
